@@ -7,13 +7,11 @@ public class Tictactoe2
         Board2 board2 = new Board2();
         Scanner engine = new Scanner(System.in);
         boolean x = true;
-        while(x)
+        while(true)
         {
-            System.out.println("Please input a number between 1-9 for the corresponding slot");
-            int temp = engine.nextInt();
-            board2.turn(temp);
-
-
+            board2.main();
         }
+
+
     }
 }
